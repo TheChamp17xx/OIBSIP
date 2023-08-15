@@ -1,0 +1,97 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family:  Georgia;
+    background-color: #1f0303;
+    color: #f4eaea;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 68px;
+    color: #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Section styles */
+section {
+    padding: 50px 0;
+    background-color: #333;
+}
+
+section h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+
+.shoe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shoe {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.shoe img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shoe h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.shoe p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Footer styles */
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
